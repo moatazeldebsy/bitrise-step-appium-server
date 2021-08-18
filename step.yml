@@ -8,7 +8,7 @@
 # - Bitrise CLI guides: http://devcenter.bitrise.io/bitrise-cli/
 
 title: |-
-  Appium Server
+  Run Appium Server
 summary: |
   Install and Run Appium Server
 description: |
@@ -61,7 +61,7 @@ toolkit:
 
 
 inputs:
-  - appium_version: Default Value - you can leave this empty if you want to
+  - appium_version: v1.21.0
     opts:
       title: "Appium Version"
       summary: Specify the Appium version that you want to install
