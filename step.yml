@@ -66,6 +66,6 @@ inputs:
       title: "Appium Version"
       summary: Specify the Appium version that you want to install
       description: |
-        Specify the Appium version that you want to install for example v1.21.0. 
+        Specify the Appium version that you want to install for example v1.21.0.
       is_expand: false
       is_required: true
