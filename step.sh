@@ -2,7 +2,16 @@
 set -ex
 
 npm install -g appium@${appium_version} --unsafe-perm=true --allow-root
+
+if [ ${appium_version} = "next" ]
+then
+   appium driver install xcuitest
+   appium driver install espresso
+   appium driver install flutter
+fi
+
 appium --log appium.log &>/dev/null &
+
 #
 # --- Export Environment Variables for other Steps:
 # You can export Environment Variables for other Steps with

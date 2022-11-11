@@ -31,12 +31,8 @@ host_os_tags:
 #
 project_type_tags:
    - ios
-#   - macos
    - android
-#   - xamarin
    - react-native
-#   - cordova
-#   - ionic
 
 # Type tags are used for categorizing steps, for easier step discovery in Step Libraries.
 # You can find more information about type tags in the Step Development Guideline:
@@ -61,7 +57,7 @@ toolkit:
 
 
 inputs:
-  - appium_version: v1.21.0
+  - appium_version: next
     opts:
       title: "Appium Version"
       summary: Specify the Appium version that you want to install
