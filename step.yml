@@ -33,6 +33,7 @@ project_type_tags:
    - ios
    - android
    - react-native
+   - flutter
 
 # Type tags are used for categorizing steps, for easier step discovery in Step Libraries.
 # You can find more information about type tags in the Step Development Guideline:
